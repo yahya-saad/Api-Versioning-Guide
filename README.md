@@ -188,7 +188,7 @@ builder.Services.AddApiVersioning(options =>
 
 or using
 
-```json
+```
 GET /api/Governments
 Headers: x-api-version: 1
 ```
@@ -196,9 +196,9 @@ Headers: x-api-version: 1
 > **_NOTE:_** If no version is specified (query or header), the default version from configuration is used.
 
 ### Swagger Configuration for Versioning
-
 when using swagger with versioning (Path) it conflicts and needs to be configured to work fine , configure it as follows:
 
+![without](https://github.com/user-attachments/assets/75d88f39-fb84-484f-86d7-f2749f17cf84)
 ```c#
 namespace API
 {
@@ -252,3 +252,6 @@ if (app.Environment.IsDevelopment())
     });
 }
 ```
+![with](https://github.com/user-attachments/assets/c7382982-4228-4eac-9b50-adda60b7c492)
+
+
