@@ -14,8 +14,8 @@ It's a technique for managing changes in APIs over time, allowing new features o
 
 Before implementing API versioning, ensure you have the following NuGet packages installed:
 
-- `Microsoft.AspNetCore.Mvc.Versioning`
-- `Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer`
+- `Asp.Versioning.Mvc`
+- `Asp.Versioning.Mvc.ApiExplorer`
 
 ## Configuration
 
